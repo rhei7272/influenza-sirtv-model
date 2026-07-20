@@ -10,7 +10,7 @@ sensitivity analysis of R0, and an interactive dashboard.
 single intervention modeled — more effective than social distancing,
 treatment, or natural recovery.
 
-[**Try the live dashboard →**](#) *(add your Streamlit Cloud link here after deploying)*
+*A live, hosted version of the dashboard isn't deployed yet — for now, run it locally with the Quickstart steps below (`streamlit run dashboard/app.py`).*
 
 ![Model dynamics](figures/fig2_compartments.png)
 
@@ -28,7 +28,7 @@ treatment, or natural recovery.
 ## Quickstart
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/rhei7272/influenza-sirtv-model.git
 cd influenza-sirtv-model
 pip install -r requirements.txt
 
